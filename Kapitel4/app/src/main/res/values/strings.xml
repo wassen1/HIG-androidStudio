@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kapitel4</string>
+    <string name="buttonFirst">FirstActivity</string>
+    <string name="buttonSecond">SecondActivity</string>
+    <string name="title_activity_first">FirstPage</string>
+    <string name="title_activity_second">SecondPage</string>
+    <string name="goBack">Go back</string>
+
+</resources>

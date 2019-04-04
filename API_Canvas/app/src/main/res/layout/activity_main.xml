@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wassemann.api_canvas.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/textViewId"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/editTextUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewId"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:ems="3"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextUserId"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/textViewToken"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/editTextToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewToken"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextToken"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/submit"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit"
+        android:layout_centerHorizontal="true"
+         />
+</RelativeLayout>

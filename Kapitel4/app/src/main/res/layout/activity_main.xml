@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+       android:layout_alignParentTop="true"
+        android:layout_margin="22dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/buttonFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/buttonFirst"
+        android:onClick="firstActivity"
+        />
+    <Button
+        android:id="@+id/buttonSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonFirst"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/buttonSecond"
+        android:onClick="secondActivity"
+        />
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSecond"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/goBack"
+        android:onClick="quit"
+
+        />
+
+</RelativeLayout>

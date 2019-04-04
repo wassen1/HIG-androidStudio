@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Inköpslistan</string>
+    <string name="topTextView">Välj vara till kom-ihåg-lista</string>
+    <string name="adderButton">Lägg till vara</string>
+    <string name="removerButton">Ta bort vara</string>
+    <string name="infoEditTextView">Lägg till ytterligare vara</string>
+    <string name="editSpinnerItem">Redigera rullista</string>
+
+
+    <string-array name="itemSpinner">
+        <item>Välj vara</item>
+        <item>Bröd</item>
+        <item>Smör</item>
+        <item>Ost</item>
+        <item>Filmjölk</item>
+        <item>Havregryn</item>
+        <item>Krossade tomater</item>
+        <item>Bananer</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="From">From:</string>
+    <string name="Amount">Amount:</string>
+    <string name="To">To:</string>
+    <string name="AmountTo">Amount:</string>
+    <string name="Valuta">Valuta</string>
+    <string name="nya_valutan">Nya valutan</string>
+
+    <string-array name="currencyArray">
+        <item>Choose Currency</item>
+        <item>SEK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>NOK</item>
+        <item>DKK</item>
+        <item>CHF</item>
+        <item>MYR</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+        <item>ZAR</item>
+    </string-array>
+
+    <string-array name="currencyRateArray">
+        <item>0.0</item>
+        <item>1.00</item>
+        <item>9.78</item>
+        <item>10.95</item>
+        <item>1.02</item>
+        <item>1.30</item>
+        <item>8.37</item>
+        <item>1.97</item>
+        <item>6.40</item>
+        <item>6.56</item>
+        <item>0.07</item>
+        <item>0.58</item>
+    </string-array>
+
+</resources>

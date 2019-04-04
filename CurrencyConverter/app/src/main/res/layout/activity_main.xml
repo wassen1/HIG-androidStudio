@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textViewFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/From"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerFrom"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_below="@id/textViewFrom"
+     />
+
+    <TextView
+        android:id="@+id/textViewAmountFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/spinnerFrom"
+        android:text="@string/Amount"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <EditText
+        android:id="@+id/editTextCurrencyIn"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textViewAmountFrom"
+        />
+
+    <TextView
+        android:id="@+id/textViewTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editTextCurrencyIn"
+        android:text="@string/To"
+        android:textAppearance="?android:textAppearanceLarge"
+       />
+
+    <Spinner
+        android:id="@+id/spinnerTo"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textViewTo"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/textViewAmountTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/spinnerTo"
+        android:text="@string/AmountTo"
+        android:textAppearance="?android:textAppearanceLarge"
+       />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_below="@id/textViewAmountTo"
+        android:background="#11FF"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+
+
+
+
+
+</RelativeLayout>

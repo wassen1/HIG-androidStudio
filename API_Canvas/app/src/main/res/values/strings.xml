@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">API Canvas</string>
+    <string name="textViewId">Fyll i ditt användar id för Canvas:</string>
+    <string name="textViewToken">Fyll i ditt access token:</string>
+    <string name="submit">OK</string>
+    <string name="back">Back</string>
+
+</resources>

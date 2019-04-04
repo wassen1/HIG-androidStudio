@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Painting</string>
+    <string name="drawBtn">SimpleDraw</string>
+    <string name="interactionBtn">Interaction</string>
+    <string name="animationBtn">Animation</string>
+    <string name="title_activity_interaction">InteractionActivity</string>
+    <string name="title_activity_simple_draw">SimpleDrawActivity</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+</resources>

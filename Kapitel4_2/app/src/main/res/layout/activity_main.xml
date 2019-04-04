@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:id="@+id/days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/days"
+        android:onClick="chooseDay"
+        />
+    <Button
+        android:id="@+id/food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/days"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/food"
+        android:onClick="chooseFood"
+        />
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/food"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:text="@string/quit"
+        android:onClick="quit"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+
+         />
+
+    <TextView
+        android:id="@+id/textViewFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        />
+
+
+</RelativeLayout>

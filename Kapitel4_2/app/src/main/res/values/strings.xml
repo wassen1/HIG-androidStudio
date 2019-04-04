@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Choose food</string>
+    <string name="days">Days</string>
+    <string name="food">Food</string>
+    <string name="quit">Quit</string>
+    <string name="chooser">Chooser</string>
+
+
+</resources>
